@@ -1,0 +1,162 @@
+
+<html>
+ <head>
+  <meta name="viewport" content="width=device-width, initial-scale-1">
+  <title>Personal site</title>
+
+  <style media="screen">
+  nav{
+/*  навігаціона панель */
+height: 55px;
+background-color:#D68A33;
+font-size: 35px;
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+}
+header{
+/*  заголовок сайту  */
+height: 400px;
+background-color: silver;
+border:solid;
+
+}
+section{
+/*  для main section  */
+margin:10px 100px 10px 100px;
+background-color: gray;
+height: 400px;
+
+display: flex;
+  flex-direction: column;
+  justify-content: center;
+border:solid;
+
+}
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #F7E3CC;
+}
+.darkgrey{
+/*  класс для першого елементу div */
+height: 40px;
+background-color: silver;
+
+}
+footer{
+/*  footer сайту  */
+display: flex;
+  flex-direction: column-reverse;
+background-color: black;
+color: white;
+margin-bottom: 10px;
+font-size: 50px;
+}
+.khaki{
+/*  жовтий параграф  */
+height: 200px;
+
+
+}
+#flex-container{
+display:flex;
+/*   відповідає за те як буде відображати */
+justify-content: space-between;
+/*   відповідає за місце між елементами */
+flex-direction: row;
+height: 80%;
+align-items: flex-end;
+box-sizing: border-box;
+
+}
+.flex{
+/*  параметри для флекс елементів  */
+height: 170px;
+background-color: #515563;
+width:48%;
+flex-shrink: 0;
+ font-size:1.5vh;
+ border:solid;
+ border-width: 3px 3px 0px 3px;
+
+}
+h1{
+padding: 0px 5px 0px 5px;
+margin-top: 1px;
+}
+.image{
+
+ background-image: url('krasivyiy.jpg');
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-size: 100% 100%;
+
+}
+.margin{
+  margin:20px 0px 20px 0px;
+  padding: 0px 5px 0px 5px;
+}
+  </style>
+ </head>
+ <body>
+
+
+   <header><nav>
+     <a href="index.html">Головна сторінка</a> | <a href="storinka2.html">
+       Навички</a> |
+         <a href="storinka3.html">Написати мені</a></nav>
+  </nav>
+    <p class="margin">
+  <i>   «Пісні на слова Шевченка мали значний вплив на українську
+     народнопоетичну творчість. Вони внесли в народні пісні свіжі мотиви, ідеї,
+      збагатили їх новим змістом, розширили мелодійне звучання. Перехід
+       Шевченкових поезій у народний репертуар триває, кожне покоління і
+        самодіяльних митців, і композиторів-професіоналів поповнює його новими
+         зразками».
+</p>
+<h1> Микола Пазяк</h1>
+<hr>
+  <p class="margin" >
+     «Шевченко – це той, хто живе в кожному з нас. Він – як сама душа нашого
+      народу, правдива і щира...Поезія його розлита повсюдно, вона в наших
+       краєвидах і внаших піснях,у глибинних, найзаповітніших помислах кожного,
+        чий дух здатен pозвиватись».
+     «Світова слава Шевченкова зpостає й шиpиться pазом зі славою його наpоду,
+      pазом із зpостаннямpолі й пpестижу нової, вільної Укpаїни...»
+
+
+</p>
+<h1> Джон Ф. Кеннеді</h1>
+</i>
+   </header>
+   <section>
+     <h1 align="center"> Біографія  </h1>
+    <p> Т. Г. Шевченко — центральна постать українського літературного процесу XIX ст.
+
+Його творчість мала вирішальне значення в становленні й розвитку нової
+ української літератури, утвердивши в ній загальнолюдські демократичні цінності
+  та піднісши її до рівня передових літератур світу. У своїй поезії Шевченко
+   звернувся до тем, проблем та ідей (соціальних, політичних, філософських,
+    історичних, художніх), які до нього ще не порушувалися в українській
+     літературі або порушувалися надто несміливо й соціально обмежено.  </p>
+     <!--зробив контейнер для елемнтів flex -->
+<div id="flex-container">
+       <div class="flex">
+         <img src="taras3.jpg" height="100%" width="25%" align="left">
+<center> <h1> Молодість</h1></center>
+Тарас Григорович Шевченко народився 25 лютого 1814 року у селі Моринцях
+ Звенигородського повіту Київської губернії у родині Григорія Івановича Шевченка
+  і Катерини Якимівни Бойко.
+      </div>
+<!--        перший flex елемент -->
+       <div class="flex"><img src="taras.jpg" height="100%" width="25%" align="left"> <center> <h1>Про характер</h1></center>
+        Про твердість духу поета свідчить і той факт, що перебуваючи в ув'язненні він не переставав писати і малювати. Під час слідства, яке тривало півтора місяця, Шевченко написав тринадцять віршів.
+  </div>
+<!--         другий флекс елемент -->
+
+</div>
+   </section>
+   <footer>Віктор Воскобойніков 6872648@stud.nau.edu.ua </footer>
+ </body>
+</html>

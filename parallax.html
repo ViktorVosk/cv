@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.parallax {
+  /* задаю картинкуd */
+  background-image: url("krasivyiy.jpg");
+
+  /* задаю розмір картинки */
+  min-height: 500px;
+
+  /* роблю паралакс эфект */
+  background-attachment: fixed;
+  /* зафіксував */
+  background-position: center;
+  /* розміщено посередині */
+  background-repeat: no-repeat;
+  /* не буде повторювати картинку */
+  background-size: cover;
+  /* розмір фонового зображання */
+}
+.scroll{
+  /* просто блок, який буде закривати картинку */
+  height:1000px;
+  background-color:cyan;
+  font-size:100px
+}
+</style>
+</head>
+<body>
+
+
+<div class="parallax"></div>
+
+<div class="scroll">
+<a href="index.html"> головна сторінка </a>
+</div>
+
+</body>
+</html>
